@@ -1,0 +1,50 @@
+header.theHeader{
+    position: fixed;
+    background: gray;
+    width: 100%;
+    top: 0%;
+    z-index: 0;
+    margin-left: none;
+    height: 90px;
+    left: 0;
+}
+
+h1.headstyle{
+    margin-left: 10px;
+    font-size: 24px;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: left;
+    color: maroon;
+}
+
+h4.linkstyle{
+    margin-left: 50px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: maroon;
+}
+
+footer.bottom{
+    border-top: gray;
+    border-top-style: solid;
+    background-color: gray;
+    margin-bottom: 0px;
+    width: 100%;
+    left: 0;
+    bottom: 0; /* see if neccessary */
+    text-align: right;
+    height: 123px;
+    position: absolute;
+    bottom: 0%;
+    color: blue;
+    text-align: center;
+}
+
+#footertext{
+    font-size: 18px;
+}
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Faux Duck</title>
+        <link rel="stylesheet" href="openingpage.css">
+    </head>
+    <body>
+        <div class="SignIn">
+            <h1 class="title">FAUX DUCK</h1>
+            <p class="intro">Welcome to Faux Duck!</p>
+            <p class="intro">Your Home for Completely Authentic, Discounted, Stevens Ducks Merchandise</p>
+            <p class ="intro">Brought to you by Group 12 of CS-146B</p>
+            <p class ="into">Enter Your Name and Student ID Below</p>
+            <br/>
+            <form id = "getInfo" method = "POST" action = "faux_duck_home.html">
+                Name:
+                <br/>
+                <input type ="text" name = "name" placeholder="Enter Name" id = "openName" required>
+                <br/>
+                <br/>
+                Student ID:
+                <br/>
+                <input type ="number" name = "id" placeholder="Enter ID" id = "openID" required>
+                <br/>
+                <input type = "submit" class = "ebutton" onclick="window.location.href = 'faux_duck_home.html'">
+            </form>
+            <img class = "pic" alt="Duck pic" src="ReviewPics/Mallard2.jpg" width="250" height="250">
+        </div>
+        <script type="text/javascript" src="./enter.js"></script>
+    </body>
+</html>

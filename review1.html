@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="reviewstyle.css">
+            <link rel="stylesheet" href="mainpage.css">
+            <title>Faux Duck Store</title>
+        </head>
+        <body class="colorscheme">
+            <header class="theHeader">
+                    <h1 class="headstyle">
+                        <a href="openingpage.html" >
+                            <img alt="Quack Quack" src="logo/duckpic.png" width="45" height="45">
+                            FAUX DUCK
+                        </a>
+                    </h1>
+                    <h4 class="linkstyle">
+                        <a class="hflink" href="faux_duck_home.html#top">Tops</a>
+                        <a class="hflink" href="faux_duck_home.html#bottom">Bottoms</a>
+                        <a class="hflink" href="faux_duck_home.html#access">Accessories</a>
+                        <a class="hflink" href="contact.html">Contact Us</a>
+                    </h4>
+            </header>
+            <br />  <br /> <br>  <br/>
+            <br />  <br /> <br>  <br/>
+            <div class="title">
+                <h1>Faux Sweatshirt: $1.00</h1>
+            </div>
+            <div class="display">
+                <div class="combine">
+                    <div class="main-box">
+                        <img class="main" src="ReviewPics/top1/top1.jpg" alt="Clicked Item">
+                    </div>
+                    <div class="stack">
+                        <img class="sidepic" src="ReviewPics/top1/sidepic1.jpg" alt="Back Picture">
+                        <img class="sidepic" src="ReviewPics/top1/sidepic2.jfif" alt="Shoulder Picture">
+                        <img class="sidepic" src="ReviewPics/top1/sidepic3.jpg" alt="Close Up">
+                        <img class="sidepic" src="ReviewPics/top1/sidepic4.jpg" alt="Front Picture">
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="desc">
+                        <p>Description:</p>
+                        <p>
+                            This beautiful sweatshirt is made from 50% cotton, 40% wool, and 30% faux duck feathers.
+                            (No Ducks were harmed in the making of this sweatshirt)
+                        </p>
+                    </div>
+                    <div class="but-sec">
+                        <ul>
+                            <li><button id="myBtn1" class="button">XXS</button> |</li>
+                            <li><button id="myBtn2" class="button">XS</button> |</li>
+                            <li><button id="myBtn3" class="button">S</button> |</li>
+                            <li><button id="myBtn4" class="button">M</button> |</li>
+                            <li><button id="myBtn5" class="button">L</button> |</li>
+                            <li><button id="myBtn6" class="button">XL</button> |</li>
+                            <li><button id="myBtn7" class="button">XXL</button></li>
+                        </ul>
+                        <hr>
+                        <ul>
+                            <li><button id="myBtnA" class="button">Red</button> |</li>
+                            <li><button id="myBtnB" class="button">Blue</button> |</li>
+                            <li><button id="myBtnC" class="button">Black</button> |</li>
+                            <li><button id="myBtnD" class="button">White</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="place"> 
+                <button class="checkout" onclick="location.href = 'checkout.html';"><span>Check Out</span></button>
+            </div>
+            <hr>
+            <div>
+                <div class="reviewsect">
+                    <p> Review Section:</p>
+                </div>
+                <section>
+                    <form class="forms" id="postForm">
+                        <input
+                            class = "datafield"
+                            type="text"
+                            name="username"
+                            id="formUsername"
+                            placeholder="Name"
+                        />
+                        <br>
+                        <input
+                            class = "datafield"
+                            type="text"
+                            name="review"
+                            id="formReview"
+                            placeholder="Enter Review Here"
+                            required
+                        />
+                        <br>
+                        <button class="addReview">Add Review</button>
+                    </form>
+                </section>
+            
+
+                <div id="placeReview">
+                </div>
+            </div>
+            <script type="text/javascript" src="./review.js"></script>
+            <script type="text/javascript" src="./eventListeners.js"></script>
+        </body>
+    </html>
