@@ -6,4 +6,7 @@ Group Project The Stevens book store is too expensive and doesn’t have enough 
 
 Contributors:
 
-Ankit Patel Eric Stazzone Troy Tomasch Brian Wormser
+Ankit Patel,
+    Eric Stazzone,
+    Troy Tomasch,
+    Brian Wormser.
